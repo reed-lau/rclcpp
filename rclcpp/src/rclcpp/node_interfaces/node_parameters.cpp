@@ -222,7 +222,7 @@ NodeParameters::set_parameters_atomically(
 
   std::swap(tmp_map, parameters_);
 
-  events_publisher_->publish(parameter_event);
+  // events_publisher_->publish(parameter_event);
 
   return result;
 }
